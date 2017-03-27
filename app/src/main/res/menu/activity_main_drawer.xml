@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/DigitalID"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Your Digital ID" />
+        <item
+            android:id="@+id/DigitalDrive"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Your Digital Driving License" />
+        <item
+            android:id="@+id/NewsFeed"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="News Feed" />
+        <item
+            android:id="@+id/Reporting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Reporting System" />
+        <item
+            android:id="@+id/Conversation"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Conversation" />
+        <item
+            android:id="@+id/Help"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Help" />
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Log Out" />
+        <item
+            android:id="@+id/scan"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Scan" />
+
+    </group>
+
+
+</menu>
